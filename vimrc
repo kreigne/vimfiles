@@ -39,6 +39,10 @@ set sts=2
 set expandtab
 set autoindent
 
+" white space blamer
+set list
+set listchars=tab:\ ¬,trail:.
+
 " nice statusline
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ %{fugitive#statusline()}
 
