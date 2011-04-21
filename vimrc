@@ -71,6 +71,7 @@ nnoremap <leader>ft Vatzf
 nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
 nnoremap <leader>w <C-w><C-v>
 nnoremap <leader>f :set lines=100 columns=400<CR>
+let g:sparkupExecuteMapping='<D-e>'
 
 " macvim config
 if has("gui_mac") || has("gui_macvim")
