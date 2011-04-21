@@ -73,6 +73,11 @@ nnoremap <leader>w <C-w><C-v>
 nnoremap <leader>f :set lines=100 columns=400<CR>
 let g:sparkupExecuteMapping='<D-e>'
 
+" fuzzyfinder
+let g:fuf_coveragefile_globPatterns=['**/*.h', '**/*.c', '**/*.rb', '**/*.js', '**/*.erb', '**/*.css']
+nmap <C-f> :FufCoverageFile<cr>
+nmap <C-f> <C-o>:FufCoverageFile<cr>
+
 " macvim config
 if has("gui_mac") || has("gui_macvim")
   source ~/.vim/macvim.vim
