@@ -76,6 +76,4 @@ let g:sparkupExecuteMapping='<D-e>'
 " macvim config
 if has("gui_mac") || has("gui_macvim")
   source ~/.vim/macvim.vim
-else
-  map <leader>t <Esc>
 endif
