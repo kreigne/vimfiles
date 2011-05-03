@@ -31,9 +31,11 @@ set hlsearch
 set wrap
 set textwidth=79
 set formatoptions=qrn1
+filetype indent plugin on
 syntax on
 
 " indentation
+set ts=4
 set sw=2
 set sts=2
 set expandtab
@@ -46,15 +48,11 @@ set listchars=tab:\ ¬,trail:.
 " nice statusline
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ %{fugitive#statusline()}
 
+" enabling mouse
+set mouse=a
+
 " interface stuff
-set go-=T
-set go-=L
-set go-=r
 set number
-set bg=dark
-set lines=50
-set columns=100
-set guifont=Monaco:h10
 colorscheme molokai
 
 " mappings
@@ -70,7 +68,6 @@ nnoremap <leader>a :Ack<space>
 nnoremap <leader>ft Vatzf
 nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
 nnoremap <leader>w <C-w><C-v>
-nnoremap <leader>f :set lines=100 columns=400<CR>
 let g:sparkupExecuteMapping='<D-e>'
 
 " fuzzyfinder
