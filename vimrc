@@ -53,7 +53,7 @@ set mouse=a
 
 " interface stuff
 set number
-colorscheme molokai
+colorscheme xc_inspired
 
 " mappings
 map <C-J> <C-w>j<C-w>_
