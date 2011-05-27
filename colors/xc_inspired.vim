@@ -7,15 +7,9 @@
 
 hi clear
 
+let colors_name = "xc_inspired"
+
 set background=dark
-if version > 580
-" no guarantees for version 5.8 and below, but this makes it stop
-" complaining
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
-endif
 
 hi Boolean guifg=#DC18A5
 hi Character guifg=#927CFD
