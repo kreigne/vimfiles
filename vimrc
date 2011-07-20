@@ -71,7 +71,7 @@ nnoremap <leader>w <C-w><C-v>
 let g:sparkupExecuteMapping='<D-e>'
 
 " fuzzyfinder
-let g:fuf_coveragefile_globPatterns=['**/*.h', '**/*.c', '**/*.rb', '**/*.js', '**/*.erb', '**/*.css']
+let g:fuf_coveragefile_globPatterns=['**/*.h', '**/*.c', '**/*.rb', '**/*.js', '**/*.erb', '**/*.haml', '**/*.html', '**/*.rake', '**/*.css']
 nmap <C-f> :FufCoverageFile<cr>
 nmap <C-f> <C-o>:FufCoverageFile<cr>
 
