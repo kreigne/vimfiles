@@ -10,6 +10,6 @@ set antialias
 nnoremap <leader>f :set lines=100 columns=400<CR>
 
 if &background == "dark"
-    hi normal guibg=black
-    set transparency=4
+    "hi normal guibg=black
+    set transparency=7
 endif
