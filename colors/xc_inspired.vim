@@ -9,8 +9,6 @@ hi clear
 
 let colors_name = "xc_inspired"
 
-set background=dark
-
 hi Boolean guifg=#DC18A5
 hi Character guifg=#927CFD
 hi Number guifg=#927CFD
