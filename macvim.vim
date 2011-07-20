@@ -3,7 +3,7 @@ set go-=L
 set go-=r
 set lines=50
 set columns=100
-set guifont=Monaco:h12
+set guifont=Inconsolata:h14
 set antialias
 
 " maximize screen
