@@ -31,17 +31,13 @@ set hlsearch
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-filetype indent plugin on
+filetype plugin indent on
 syntax on
 
 " terminal colors
 set t_Co=256
 
 " indentation
-set ts=4
-set sw=2
-set sts=2
-set expandtab
 set autoindent
 
 " white space blamer
