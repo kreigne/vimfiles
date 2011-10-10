@@ -34,6 +34,9 @@ set formatoptions=qrn1
 filetype indent plugin on
 syntax on
 
+" terminal colors
+set t_Co=256
+
 " indentation
 set ts=4
 set sw=2
